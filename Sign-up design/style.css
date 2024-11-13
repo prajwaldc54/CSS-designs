@@ -1,0 +1,227 @@
+html{
+    font-size: 62.5%;
+    font-family: Rubik;
+
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5em;
+    margin-top: 3em;
+    margin-left: 7em;
+    width: 50%;
+    height: 450px;
+}
+.imgpage{
+    width: 50%;
+    height: 630px;
+    margin-top: 5em;
+    margin-right: 20em;
+    background: #191932 0% 0% no-repeat padding-box;
+}
+#text{
+    margin-top: 1.5em;
+}
+
+h3{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-bottom: 0.3em;
+    text-align: left;
+    font: normal normal medium 28px/33px Rubik;
+    color: #707070;
+    opacity: 1;
+}
+h4{
+    margin-top: 0px;
+    margin-left: 7.3em;
+    text-align: left;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+#email{
+    text-align: left;
+    font: normal normal medium 12px/14px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-top: 17px;
+    width: 28em;
+    height: 1.8em;
+    margin-left: 9.5em;
+    margin-bottom: 2em;
+    font-size: 12px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #02A4FF;
+    border-radius: 6px;
+    opacity: 1;
+}
+.em{
+    display: block;
+}
+.em span{
+    position: absolute;
+    z-index: 1;
+    cursor: text;
+    pointer-events: none;
+    color: #999;
+    padding: 7px;
+    line-height: 17px;
+    font-size: 17px;
+    text-align: left;
+}
+#pass{
+    text-align: left;
+    font: normal normal medium 12px/14px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    width: 28em;
+    height: 1.8em;
+    font-size: 12px;
+    margin-left: 9.5em;     
+    padding-top: 17px;
+    margin-bottom: -15px;
+    background: #FEF4F4 0% 0% no-repeat padding-box;
+    border: 1px solid #F24545;
+    border-radius: 6px;
+}
+#side1{
+    margin-left: 10.2em;
+    margin-top: -2px;
+    font-size: 12px;
+    text-align: left;
+    font: normal normal medium 12px/14px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+#side2{
+    margin-left: 10.2em;
+    margin-top: -2px;
+    font-size: 12px;
+    text-align: left;
+    font: normal normal medium 12px/14px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1; 
+}
+.me{
+    text-align: left;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+::placeholder {
+    padding-left: 12px;
+    font-weight: bold;
+    text-align: left;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #191932;
+    opacity: 1;
+}
+input[type=password]::placeholder{
+    padding-left: 12px;
+    text-align: left;
+    font: normal normal normal 16px/19px Rubik;
+    color: #ACACAC;
+    opacity: 1;
+}
+.rem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-left: 5.3em;
+    margin-bottom: 1em;
+    width: 360px;
+    font-size: 18px;
+}
+.check{
+    margin-left: 0.9em;
+}
+input[type='checkbox']:checked{
+    height: 10px;
+    width: 10px;
+    background: #333333 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.me{
+    font-size: 12px;
+    text-align: left;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1; 
+    font-size: 12px;
+    margin-right: 140px;
+    margin-top: 2px;
+}
+
+.remem{
+    text-align: right;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 12px;
+}
+#bt{
+    background: #171717 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    width: 340px;
+    height: 30px;
+    margin-left: 8.6em;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+}
+.ex{
+    display: flex;
+    text-align: center;
+    font: normal normal normal 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: #191932;
+    margin-top: 4px;
+    margin-left: 14em;
+    font-size: 12px;
+}
+#yet{
+    color: #707070;
+}
+.password i {
+    font-size: 12px;
+    margin-left: -2.5em;
+}
+.nw{
+    font-weight: bold
+}
+#req{
+    margin-left: 8.9em;
+    text-align: left;
+    font: normal normal normal 13px/15px Rubik;
+    letter-spacing: 0px;
+    color: #DB0000;
+    opacity: 1;
+}
+#nameon{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #6A6A9F67;
+    border-radius: 6px;
+    opacity: 1;
+    padding-top: 17px;
+    width: 28em;
+    height: 1.8em;
+    margin-left: 9.5em;
+    margin-bottom: 2em;
+    font-size: 12px;
+}
